@@ -1,0 +1,209 @@
+*{
+    cursor:url(icons8-dot-40.png) ,auto;
+}
+::placeholder{
+    color:rgba(255, 255, 255, 0.692);
+}
+
+input{
+    outline: none;
+    font-size: 15px;
+    color: white;
+    
+}
+body{
+    margin: 0 ;
+    background-color: black;
+    background: url(1668637290_4554-ezgif.com-speed.gif);
+    min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+.registr{
+    width: 700px;
+    height: 700px ;
+    border: 1px solid black;
+    margin: 0 auto;
+    justify-content: center;
+    display: block;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    transition: all 3s ease;
+    
+}
+.div_login{
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.div_password{
+   
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_email{
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email_user{
+    width: 500px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.password_user{
+    width: 500px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.login_user{
+    width: 500px;
+    height: 40px;
+    border-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_text{
+    border-bottom: 0.2px solid rgb(255, 253, 253);
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text1{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.text2{
+    color: white;
+    font-size: 25px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit_button{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.button_registr{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.button_registr:hover{
+    background-color: rgb(201, 201, 201);
+}
+.login{
+    width: 700px;
+    height: 700px ;
+    border: 1px solid black;
+    margin: 0 auto;
+    justify-content: center;
+    display: none;
+    animation-name: anima;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    transition: all 3s ease;
+
+    
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+    .div_login{
+
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    input{
+        outline: none;
+        font-size: 13px;
+        color: white;
+        
+    }
+    .login{
+        width: 300px;
+        height: 200px ;
+        border: 1px solid black;
+        margin: 0 auto;
+        justify-content: center;
+    }
+        .registr{
+        width: 300px;
+        height: 200px ;
+        border: 1px solid black;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+    .main_text{
+        border-bottom: 1px solid rgb(255, 253, 253);
+        height: 100px;
+        width: 100%;
+
+    }
+    .text1{
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    .text2{
+        color: white;
+        font-size: 15px;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .submit_button{
+        display: flex;
+        width: 300px;
+        height: 200px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+}@keyframes anim{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+
+}
+@keyframes anima{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+
+}
